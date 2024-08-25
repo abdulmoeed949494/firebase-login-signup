@@ -1,0 +1,69 @@
+/* CSS for Centered Login Form */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Background color similar to light gray */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  background-color: #ffffff; /* White background */
+  padding: 20px; /* Inner padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 320px; /* Max width for the form */
+}
+
+.form-container input {
+  width: 100%; /* Full width input fields */
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 15px; /* Space between inputs */
+  border: 1px solid #dddfe2; /* Light border */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 16px; /* Text size */
+}
+
+.form-container button {
+  width: 100%; /* Full width buttons */
+  padding: 10px; /* Padding inside the button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.form-container .login-button {
+  background-color: #1877f2; /* Facebook blue */
+  color: #ffffff; /* White text */
+  margin-bottom: 10px; /* Space below the button */
+}
+
+.form-container .login-button:hover {
+  background-color: #166fe5; /* Slightly darker blue on hover */
+}
+
+.form-container .forgot-password {
+  text-align: center; /* Center align the text */
+  display: block; /* Block level link */
+  margin-bottom: 20px; /* Space below the link */
+  color: #1877f2; /* Facebook blue text */
+  text-decoration: none; /* Remove underline */
+  font-size: 14px; /* Smaller text size */
+}
+
+.form-container .forgot-password:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.form-container .create-account-button {
+  background-color: #42b72a; /* Green background */
+  color: #ffffff; /* White text */
+}
+
+.form-container .create-account-button:hover {
+  background-color: #36a420; /* Slightly darker green on hover */
+}
