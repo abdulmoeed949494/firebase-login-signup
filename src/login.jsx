@@ -17,6 +17,7 @@ const Login = () => {
       console.log("Login successfully");
       navigate("/");
     } catch (err) {
+      alert("Wrong Email or Password")
       console.log(err);
     }
   };
@@ -26,6 +27,7 @@ const Login = () => {
   };
 
   return (
+    <div className="body">
     <div className="form-container">
       <form onSubmit={handleSubmit}>
         <input
@@ -53,6 +55,7 @@ const Login = () => {
           Create new account
         </button>
       </form>
+    </div>
     </div>
   );
 };
